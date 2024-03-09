@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.flex-parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.track-form {
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: #fff;
+}
+  
+.track-form label {
+    margin-top: 7px;
+    vertical-align: middle;
+}
+  
+.track-form input {
+    width: 20%;
+    margin: 0 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+  
+.track-form button {
+    padding: 7px 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.track-list {
+    margin: 20px 0;
+}
+
+.track-list-item {
+    min-width: 100px;
+    margin: 0 10px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+    .track-list-item :first-child {
+      margin-left: 0;
+    }
+  
+    .track-list-item :last-child {
+      margin-right: 0;
+    }
+  
+    .track-list-item > h3 {
+      font-weight: normal;
+    }
+  
+  .top-track {
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 0;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  
+  .details {
+    justify-content: flex-start;
+  }
+    .details > div {
+      padding-left: 20px;
+    }
+  
+    .details > div :first-child {
+      padding-left: 0;
+    }
+  
+  .track {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+      
+    .track p {
+        margin: 0;
+    }
+  
+    .track img {
+        vertical-align: middle;
+    }
+  
+    #topTrack {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 20px;
+      min-width: 100px;
+      margin: 0 10px;
+      padding: 10px;
+      border: 2px solid #000;
+      border-radius: 20px;
+      background-color: #fff;
+      text-align: center;
+      cursor: pointer
+    }
+    
