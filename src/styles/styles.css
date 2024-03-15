@@ -85,9 +85,9 @@ body {
       padding-left: 0;
     }
   
-  .track {
+  .track-item {
     font-size: 30px;
-    line-height: 1.4;
+    margin-bottom: 10px;
   }
       
     .track p {
