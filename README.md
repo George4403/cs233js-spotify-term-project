@@ -18,7 +18,7 @@ Built with Vanilla JavaScript, HTML, and CSS
 
 ## Repository Structure
 ```
-/dist
+/src
  ├── /js
       ├── artist.js       # Core logic (Spotify API integration, DOM manipulation)
  ├── /styles
