@@ -14,7 +14,7 @@ Shows album cover, album name, release date, and a link to listen on Spotify
 
 Click on a track to reveal more details
 
-Built with Vanilla JavaScript, HTML, and Bootsrap CSS
+Built with Vanilla JavaScript, HTML, and Bootstrap CSS
 
 ## Repository Structure
 ```
